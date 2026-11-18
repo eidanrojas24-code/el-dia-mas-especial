@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F3C3D6">
+<title>El Día Más Especial</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main id="view" tabindex="-1"></main>
+<button id="music-btn" class="mini" aria-label="Música" hidden></button>
+<div id="modal-root"></div>
+<script src="config.js"></script>
+<script src="js/app.js"></script>
+<script>setTimeout(function(){var v=document.getElementById("view");if(!v.innerHTML.trim())v.innerHTML='<p style="padding:40px">No se cargaron los archivos. Revisa que las carpetas css, js y assets estén junto a index.html.</p>'},1500)</script>
+</body>
+</html>
